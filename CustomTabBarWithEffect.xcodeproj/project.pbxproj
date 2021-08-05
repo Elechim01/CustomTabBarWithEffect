@@ -11,6 +11,11 @@
 		C43D161E26BC8207005CFDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D161D26BC8207005CFDE8 /* ContentView.swift */; };
 		C43D162026BC8209005CFDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43D161F26BC8209005CFDE8 /* Assets.xcassets */; };
 		C43D162326BC8209005CFDE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43D162226BC8209005CFDE8 /* Preview Assets.xcassets */; };
+		C43D162C26BC823A005CFDE8 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D162B26BC823A005CFDE8 /* CustomTabBar.swift */; };
+		C43D162F26BC83FE005CFDE8 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D162E26BC83FE005CFDE8 /* TabViewModel.swift */; };
+		C43D163126BC8B92005CFDE8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D163026BC8B92005CFDE8 /* Home.swift */; };
+		C43D163326BC8C86005CFDE8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D163226BC8C86005CFDE8 /* Card.swift */; };
+		C43D163526BC8FC3005CFDE8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D163426BC8FC3005CFDE8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C43D161D26BC8207005CFDE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C43D161F26BC8209005CFDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C43D162226BC8209005CFDE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C43D162B26BC823A005CFDE8 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		C43D162E26BC83FE005CFDE8 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		C43D163026BC8B92005CFDE8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C43D163226BC8C86005CFDE8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C43D163426BC8FC3005CFDE8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		C43D161A26BC8207005CFDE8 /* CustomTabBarWithEffect */ = {
 			isa = PBXGroup;
 			children = (
+				C43D162D26BC83E9005CFDE8 /* ViewModel */,
+				C43D162A26BC8223005CFDE8 /* Model */,
+				C43D162926BC8219005CFDE8 /* View */,
 				C43D161B26BC8207005CFDE8 /* CustomTabBarWithEffectApp.swift */,
 				C43D161D26BC8207005CFDE8 /* ContentView.swift */,
 				C43D161F26BC8209005CFDE8 /* Assets.xcassets */,
@@ -65,6 +78,32 @@
 				C43D162226BC8209005CFDE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C43D162926BC8219005CFDE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C43D162B26BC823A005CFDE8 /* CustomTabBar.swift */,
+				C43D163026BC8B92005CFDE8 /* Home.swift */,
+				C43D163426BC8FC3005CFDE8 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C43D162A26BC8223005CFDE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C43D163226BC8C86005CFDE8 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C43D162D26BC83E9005CFDE8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C43D162E26BC83FE005CFDE8 /* TabViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43D162F26BC83FE005CFDE8 /* TabViewModel.swift in Sources */,
+				C43D163326BC8C86005CFDE8 /* Card.swift in Sources */,
 				C43D161E26BC8207005CFDE8 /* ContentView.swift in Sources */,
+				C43D163526BC8FC3005CFDE8 /* DetailView.swift in Sources */,
+				C43D163126BC8B92005CFDE8 /* Home.swift in Sources */,
+				C43D162C26BC823A005CFDE8 /* CustomTabBar.swift in Sources */,
 				C43D161C26BC8207005CFDE8 /* CustomTabBarWithEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
